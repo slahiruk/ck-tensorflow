@@ -5,9 +5,9 @@
     "install_env": {
       "PACKAGE_GIT": "YES", 
       "PACKAGE_PATCH": "YES", 
-      "PACKAGE_PATCH_LIST": "\\$<<ORIGINAL_PACKAGE_DIR>>$/patch.\\$<<CK_TARGET_OS_ID>>$/* \\$<<ORIGINAL_PACKAGE_DIR>>$/patch.linux.variations/\\$<<PACKAGE_PATCH__V2_3_0__MAKEFILE>>$ \\$<<ORIGINAL_PACKAGE_DIR>>$/patch.linux.variations/\\$<<PACKAGE_PATCH__V2_3_0__OFFSETOF>>$", 
-      "PACKAGE_PATCH__V2_3_0__MAKEFILE": "", 
-      "PACKAGE_PATCH__V2_3_0__OFFSETOF": "", 
+      "PACKAGE_PATCH_LIST": "\\$<<ORIGINAL_PACKAGE_DIR>>$/patch.\\$<<CK_TARGET_OS_ID>>$/* \\$<<ORIGINAL_PACKAGE_DIR>>$/patch.linux.variations/\\$<<PACKAGE_PATCH__V2_2_0__MAKEFILE>>$ \\$<<ORIGINAL_PACKAGE_DIR>>$/patch.linux.variations/\\$<<PACKAGE_PATCH__V2_2_0__OFFSETOF>>$", 
+      "PACKAGE_PATCH__V2_2_0__MAKEFILE": "", 
+      "PACKAGE_PATCH__V2_2_0__OFFSETOF": "", 
       "PACKAGE_SUB_DIR": "src", 
       "PACKAGE_URL": "https://github.com/tensorflow/tensorflow", 
       "PACKAGE_VERSION": "default"
@@ -54,10 +54,6 @@
     "vstatic", 
     "channel-stable"
   ], 
-  "use_scripts_from_another_entry": {
-    "data_uoa": "08154997bac8ed55", 
-    "module_uoa": "script"
-  }, 
   "variations": {
     "rpi4": {
       "extra_env": {
