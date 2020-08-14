@@ -18,7 +18,7 @@
       "local": "yes",
       "name": "Bazel build tool",
       "sort": 10,
-      "tags": "compiler,lang-cpp"
+      "tags": "bazel-on-arm,bazel"
     },
     "compiler": {
       "local": "yes", 
@@ -40,7 +40,7 @@
   "package_extra_name": " (from sources, static)", 
   "process_script": "install", 
   "soft_uoa": "lib.tflite.static", 
-  "suggested_path": "lib-tflite-src-static", 
+  "suggested_path": "lib-tflite-via-bazel-src-static", 
   "tags": [
     "lib", 
     "tensorflow", 
